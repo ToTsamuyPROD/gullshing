@@ -47,20 +47,21 @@ function connectToBroker() {
 
   // Received
   mqttClient.on("message", (topic, message, packet) => {
+    
+   
     console.log(
       "Received Message: " + message.toString() + "\nOn topic: " + topic
     );
     document.querySelector('#message').value = "";
     const messageTextArea = document.querySelector("#message");
-    messageTextArea.value += message;
-    
-    
+    messageTextArea.value += message + "\r\n";
+   
   });
 }
 
 function subscribeToTopic() {
   const status = document.querySelector("#status");
-  const topic = document.querySelector("#topic").value.trim();
+  const topic = "T";
   console.log(`Subscribing to Topic: ${topic}`);
 
   mqttClient.subscribe(topic, { qos: 0 });
@@ -70,7 +71,7 @@ function subscribeToTopic() {
 
 function unsubscribeToTopic() {
   const status = document.querySelector("#status");
-  const topic = document.querySelector("#topic").value.trim();
+  const topic = "T";
   console.log(`Unsubscribing to Topic: ${topic}`);
 
   mqttClient.unsubscribe(topic, { qos: 0 });
