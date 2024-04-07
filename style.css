@@ -182,15 +182,15 @@ button{
   height: 100%;
   background:#0000ff;
   border-radius: 10px;
-  -webkit-filter: brightness(20%);
+  filter: brightness(20%);
 }
 .chooseIncatalog:hover {
-  -webkit-filter: brightness(60%);
-    -webkit-transition: all 1s ease;
-    -moz-transition: all 1s ease;
-    -o-transition: all 1s ease;
-    -ms-transition: all 1s ease;
-    transition: all 1s ease;
+  filter: brightness(60%);
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 1s ease;
 }
 
 .dopBTN {
@@ -317,11 +317,11 @@ display: inline-block;
 }
 .ogran{
   display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    width: 80%;
-    background: #eee;
-    margin: 10px auto;
-    position: relative;
-    text-align:center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 80%;
+  background: #eee;
+  margin: 10px auto;
+  position: relative;
+  text-align:center;
 }
