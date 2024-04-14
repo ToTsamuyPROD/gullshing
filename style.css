@@ -50,6 +50,38 @@ div{
     border-radius: 10px;
     box-shadow: 0 0 20px 3px #253046;
   }
+    .informationAboutCompanies {
+      font-size: 15px;
+      display: flex;
+      justify-content: left;
+      flex-wrap: wrap;
+      width: 60%;
+      
+      margin: 10px auto;
+      position: relative;
+      text-align:left;
+      margin-right: 23%;
+    }
+    .CompaniesLogo{
+      width: 20%;
+      margin-right: 100%;
+      margin-bottom: -15%;
+    }
+    .productionOfCompanies{
+      font-size: 15px;
+      display: flex;
+      justify-content: left;
+      flex-wrap: wrap;
+      width: 40%;
+      height: 20%;
+      
+      position: relative;
+      text-align:left;
+      margin-right: 25%;
+    }
+
+    
+  
   .information2 {
     font-size: 25px;
     display: flex;
@@ -176,14 +208,13 @@ button{
 .dropdown:hover .dropdown-content3 {display: block;}
 
 
-.chooseIncatalog {
- 
+.chooseIncatalog { 
   width: 100%;
   height: 100%;
-  background:#0000ff;
   border-radius: 10px;
   filter: brightness(20%);
 }
+
 .chooseIncatalog:hover {
   filter: brightness(60%);
   -webkit-transition: all 1s ease;
@@ -192,6 +223,28 @@ button{
   -ms-transition: all 1s ease;
   transition: all 1s ease;
 }
+
+.chooseIncatalogForCompanies { 
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  filter: brightness(60%);
+}
+
+.chooseIncatalogForCompanies:hover {
+  filter: brightness(95%);
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+
+
+
+
+
 
 .dopBTN {
   outline: none;
@@ -325,3 +378,23 @@ display: inline-block;
   position: relative;
   text-align:center;
 }
+
+
+
+.twogems2{
+  top:50px;
+  width: 250px;
+  height: 200px;
+  border-radius: 10px;
+  margin-top: 5px;
+  margin-left: 5px;
+  transition: transform 0.3s ease-in-out;
+  transform-origin: center center;
+  position: relative;
+display: inline-block;
+}
+
+.twogems2:hover {
+transform: scale(1.1) ;
+}
+
