@@ -22,6 +22,7 @@ div{
     margin: 10px auto;
     position: relative;
     text-align:center;
+    
 }
 .logo {
     width: 1100px;
@@ -126,8 +127,10 @@ div{
   margin-right: 3%;
 }
 .div-border{
-    background-color: rgb(235, 235, 235);
+    background-color: rgb(189, 188, 188);
     height: 6%;
+    width: 100%;
+    
 }
 
 /*конец нового*/
@@ -400,10 +403,11 @@ display: inline-block;
   justify-content: center;
   flex-wrap: wrap;
   width: 80%;
-  background: #ffffff;
+ 
   margin: 10px auto;
   position: relative;
   text-align:center;
+  margin-top: -3%;
 }
 
 
