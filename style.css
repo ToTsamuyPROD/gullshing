@@ -65,7 +65,7 @@ div{
     }
     .CompaniesLogo{
       width: 20%;
-      margin-right: 100%;
+      margin-right: 80%;
       margin-bottom: -15%;
     }
     .productionOfCompanies{
@@ -124,12 +124,18 @@ div{
   float: left; 
   font-size: 20px;
   margin-right: 15%;
-  background-color: #575656;
+  background-color:#464544;
+  color: #fff;
+  
+ 
+
+
 
 }
 .div-border{
-    background-color: rgb(235, 235, 235);
+    background-color: rgb(128, 126, 126);
     height: 6%;
+    width: 100%;
 }
 
 /*конец нового*/
